@@ -1,0 +1,16 @@
+{
+  "Vue ts starter": {
+    "prefix": "vvbase",
+    "body": [
+      "<template>\n\t<section class=\"${1:card}\">\n\t\t\t${2}\n\t</section>\r</template>\n\n<script lang=\"ts\">\nimport { defineComponent } from \"vue\"\n\nexport default defineComponent({\n\tsetup() {\n\t\t$3\n\t}\n})\n</script>"
+    ],
+    "description": "Vue starte template (composition API)"
+  },
+  "Vue Setup ts starter": {
+    "prefix": "vvsetts",
+    "body": [
+      "<template>\n\t<section class=\"${1:card}\">\n\t\t\t${2}\n\t</section>\r</template>\n\n<script setup lang=\"ts\">\n\n// const props = defineProps({})\n\n$3\n\n</script>"
+    ],
+    "description": "Vue setup ts template"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "querySelector": {
+    "prefix": "qsl",
+    "body": ["const ${1:value} = document.querySelector(${2:\".\"});"],
+    "description": "querySelector"
+  },
+  "querySelectorAll": {
+    "prefix": "qslall",
+    "body": ["const ${1:value} = document.querySelectorAll(${2:\".\"});"],
+    "description": "querySelector"
+  }
+}

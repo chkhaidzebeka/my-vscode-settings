@@ -1,0 +1,12 @@
+{
+  "console.log message": {
+    "prefix": "cl",
+    "body": ["console.log($1);"],
+    "description": "Log message to console"
+  },
+  "console.log variable": {
+    "prefix": "cll",
+    "body": ["console.log({ $1 });"],
+    "description": "Log variable to console"
+  }
+}

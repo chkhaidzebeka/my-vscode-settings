@@ -1,0 +1,31 @@
+{
+  "For loop": {
+    "prefix": "fl",
+    "body": ["for (let ${1:i} = ${2:0}; ${1:i}$3; ${1:i}$4) {\n\t$0\n}"],
+    "description": "Basic for loop"
+  },
+
+  "While loop": {
+    "prefix": "wl",
+    "body": ["while (${1:condition}) {\n\t$0\n}"],
+    "description": "Basic for loop"
+  },
+
+  "Do...while loop": {
+    "prefix": "dwl",
+    "body": ["do { \n\t$0\n} while (${1:condition})"],
+    "description": "Basic for loop"
+  },
+
+  "For...in loop": {
+    "prefix": "fil",
+    "body": ["for (let ${1:name} in ${2:iterable}) {\n\t$0\n}"],
+    "description": "Basic for loop"
+  },
+
+  "For...of loop": {
+    "prefix": "fol",
+    "body": ["for (let ${1:value} of ${2:iterable}) {\n\t$0\n}"],
+    "description": "Basic for loop"
+  }
+}
