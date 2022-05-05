@@ -1,0 +1,18 @@
+{
+	"svelte ts": {
+		"prefix": "svlts",
+		"body": [
+		  "<script lang=\"ts\">",
+		  "\tlet className = \"\";",
+		  "\texport { className as class }",
+		  "  ",
+		  "</script>",
+		  "",
+		  "",
+		  "<section class=\"$1 {className}\">",
+		  "  $2",
+		  "</section>"
+		],
+		"description": "svelte-ts"
+	  }
+}
