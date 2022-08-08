@@ -8,5 +8,10 @@
     "prefix": "cll",
     "body": ["console.log({ $1 });"],
     "description": "Log variable to console"
-  }
+  },
+  "console.log message with time": {
+    "prefix": "clt",
+    "body": ["console.log(new Date().getTime(),` $1 `);"],
+    "description": "Log message to console"
+  },
 }
