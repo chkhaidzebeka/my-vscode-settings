@@ -1,19 +1,25 @@
 {
-  "Vue Setup ts starter": {
-    "prefix": "vsetup",
-    "body": [
-      "<script setup lang=\"ts\">",
-      "  // const props = defineProps<{}>()$3",
-      "</script>",
-      "",
-      "<template>",
-      "  <section class=\"${1:card}\">",
-      "    ${2}",
-      "  </section>",
-      "</template>"
-    ],
-    "description": "Vue setup ts template"
-  },
+  "vue starter component": {
+        "prefix": "vts",
+        "body": [
+            "<script setup lang=\"ts\">",
+            "/**",
+            " * @author ${1:Dev.Name}",
+            " */",
+            "",
+            "// $2",
+            "</script>",
+            "",
+            "<template>",
+            "  <section>",
+            "    $3",
+            "  </section>",
+            "</template>",
+            "",
+            "<style lang=\"scss\"></style>"
+        ],
+        "description": "vue starter component"
+    },
   "Vue composition api setup": {
     "prefix": "vcompos",
     "body": [
