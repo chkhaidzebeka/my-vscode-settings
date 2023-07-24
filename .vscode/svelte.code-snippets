@@ -1,0 +1,28 @@
+{
+  "svelte ts": {
+    "prefix": "svlts",
+    "body": [
+      "<script lang=\"ts\">",
+      "\tlet className = \"\";",
+      "\texport { className as class }",
+      "  ",
+      "</script>",
+      "",
+      "",
+      "<section class=\"$1 {className}\">",
+      "  $2",
+      "</section>"
+    ],
+    "description": "svelte-ts"
+  },
+
+  "generate dummy each block": {
+    "prefix": "sveach",
+    "body": [
+      "{#each Array.from(Array(${1:10}), (_, i) => i) as item,index (index)}",
+      "  $2",
+      "{/each}"
+    ],
+    "description": "generate dummy each block"
+  }
+}

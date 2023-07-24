@@ -1,7 +1,0 @@
-{
-  "v-icon": {
-    "prefix": "vicon",
-    "body": ["<v-icon name=\"${1:like}\" />"],
-    "description": "v-icon global component"
-  },
-}

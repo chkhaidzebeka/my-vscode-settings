@@ -1,0 +1,50 @@
+{
+  "console.log message": {
+    "prefix": "cl",
+    "body": ["console.log($1);"],
+    "description": "Log message to console"
+  },
+  "console.log variable": {
+    "prefix": "cll",
+    "body": ["console.log({ $1 });"],
+    "description": "Log variable to console"
+  },
+  "console.log message with time": {
+    "prefix": "clt",
+    "body": ["console.log(new Date().getTime(),` $1 `);"],
+    "description": "Log message to console"
+  },
+  "querySelector": {
+    "prefix": "qsl",
+    "body": ["const ${1:value} = document.querySelector(${2:\".\"});"],
+    "description": "querySelector"
+  },
+  "querySelectorAll": {
+    "prefix": "qslall",
+    "body": ["const ${1:value} = document.querySelectorAll(${2:\".\"});"],
+    "description": "querySelector"
+  },
+  "Function declaration": {
+    "prefix": "fnd",
+    "body": ["function ${1:name}(${2:params}) {\n\t$0\n}"],
+    "description": "Function declaration statement"
+  },
+
+  "Function expression": {
+    "prefix": "fne",
+    "body": ["const ${1:myFunction} = (${2:param}) => {\n\t$0\n}"],
+    "description": "Function expression statement"
+  },
+
+  "Named function expression": {
+    "prefix": "nfne",
+    "body": ["const ${1:varName} = function ${2:name}(${3:params}) {\n\t$0\n}"],
+    "description": "Function expression statement"
+  },
+
+  "Immediately invoked function expression": {
+    "prefix": "iife",
+    "body": ["(() => {\n\t$0\n})()"],
+    "description": "Immediately invoked function expression statement"
+  }
+}

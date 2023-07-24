@@ -1,0 +1,38 @@
+{
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.cursorStyle": "line",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "phase",
+  "editor.tabSize": 4,
+  "editor.indentSize": "tabSize",
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "[vue]": {
+    "editor.defaultFormatter": "Wscats.vue"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[php]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+  },
+  "vue3snippets.enable-compile-vue-file-on-did-save-code": true,
+  "explorer.copyRelativePathSeparator": "/",
+  "vue.codeActions.enabled": false
+}

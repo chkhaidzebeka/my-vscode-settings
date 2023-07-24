@@ -1,25 +1,25 @@
 {
   "vue starter component": {
-        "prefix": "vts",
-        "body": [
-            "<script setup lang=\"ts\">",
-            "/**",
-            " * @author ${1:Dev.Name}",
-            " */",
-            "",
-            "// $2",
-            "</script>",
-            "",
-            "<template>",
-            "  <section>",
-            "    $3",
-            "  </section>",
-            "</template>",
-            "",
-            "<style lang=\"scss\"></style>"
-        ],
-        "description": "vue starter component"
-    },
+    "prefix": "vts",
+    "body": [
+      "<script setup lang=\"ts\">",
+      "/**",
+      " * @author ${1:Dev.Name}",
+      " */",
+      "",
+      "// $2",
+      "</script>",
+      "",
+      "<template>",
+      "  <section>",
+      "    $3",
+      "  </section>",
+      "</template>",
+      "",
+      "<style lang=\"scss\"></style>"
+    ],
+    "description": "vue starter component"
+  },
   "Vue composition api setup": {
     "prefix": "vcompos",
     "body": [
@@ -43,4 +43,9 @@
     ],
     "description": "Vue composition api setup"
   },
+  "v-icon": {
+    "prefix": "vicon",
+    "body": ["<v-icon name=\"${1:like}\" />"],
+    "description": "v-icon global component"
+  }
 }

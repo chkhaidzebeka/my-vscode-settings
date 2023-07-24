@@ -1,24 +1,9 @@
-# ✅ vscode-snippets
+# ✅ vscode-settings
 
-## 🔥 This is collection of vscode snippets that I use in my projects (mostly for JS)
+## 🔥 This is collection of vscode snippets and settings that I use in my projects (mostly for JS)
 
-## Snippets Tree:
+![img](https://i.imgur.com/KiNG3AF.png)
 
-- FrameWorks
-  - Vue
-    - Base Starter Templates
-- Languages
-  - JS
-    - debug
-    - DOM
-    - functions
-    - loops
+## ❔ How to add this to your project
 
-## How to add custom snippet ❔
-
-- Select the code that you want to make a snippet.
-- Right-click on it and select "Command Palette"(or Ctrl+Shift+P).
-- Write "Create Snippet".
-- Choose the type of files needed to be watched to trigger your snippet shortcut.
-- Choose a snippet shortcut.
-- Choose a snippet name.
+just copy `.vscode` folder and place in your project's `root` directory
