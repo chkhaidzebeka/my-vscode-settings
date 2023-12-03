@@ -1,6 +1,5 @@
 {
-  "workbench.colorTheme": "Vitesse Dark Soft",
-  "workbench.editor.tabCloseButton": "left",
+  "workbench.colorTheme": "Vitesse Dark",
   "workbench.iconTheme": "vscode-icons",
   "workbench.list.smoothScrolling": true,
   "workbench.preferredDarkColorTheme": "Vitesse Dark",
@@ -19,7 +18,7 @@
   "editor.cursorStyle": "line",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "phase",
-  "editor.tabSize": 4,
+  "editor.tabSize": 2,
   "editor.indentSize": "tabSize",
   "css.lint.unknownAtRules": "ignore",
   "scss.lint.unknownAtRules": "ignore",
