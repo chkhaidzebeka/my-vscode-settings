@@ -1,9 +1,16 @@
 {
   "recommendations": [
+    "antfu.icons-carbon",
+    "antfu.theme-vitesse",
+    "file-icons.file-icons",
+    "esbenp.prettier-vscode",
+    "vscode-icons-team.vscode-icons",
     "ms-vscode.vscode-typescript-next",
+    "yoavbls.pretty-ts-errors",
     "pmneo.tsimporter",
-    "MisterJ.vue-volar-extention-pack",
-    "Wscats.vue",
-    "DEVSENSE.phptools-vscode"
+    "mattpocock.ts-error-translator",
+
+    // VUE
+    "Wscats.vue"
   ]
 }
