@@ -7,3 +7,10 @@
 ## ❔ How to add this to your project
 
 just copy `.vscode` folder and place in your project's `root` directory
+
+
+### Setup `commitlint`
+```bash
+$ npm install -g @commitlint/cli @commitlint/config-conventional
+$ echo "module.exports = {extends: ['@commitlint/config-conventional']}" > commitlint.config.js
+```
