@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "test": "vitest --reporter=verbose",
+    "tscheck": "vue-tsc --noEmit --allowJS",
+    "format": "prettier --config ./prettier.config.mjs --write \"./**/*.{ts,js,vue}\""
+  }
+}
