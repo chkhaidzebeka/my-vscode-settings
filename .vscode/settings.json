@@ -3,6 +3,7 @@
   "editor.formatOnType": true,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
+  "editor.formatOnSaveMode": "file",
 
   // WORKBENCH
   "workbench.sideBar.location": "left",
@@ -21,17 +22,17 @@
   "editor.fontFamily": "'JetBrains Mono', 'Input Mono',Fira Code, 'arial'",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "phase",
-  "editor.tabSize": 4,
   "editor.indentSize": "tabSize",
 
-  "javascript.format.semicolons": "ignore",
-  "typescript.format.semicolons": "ignore",
   "typescript.updateImportsOnFileMove.enabled": "always",
 
   "css.lint.unknownAtRules": "ignore",
   "scss.lint.unknownAtRules": "ignore",
 
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
   "search.exclude": {
     "**/.git": true,
